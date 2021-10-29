@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content {
+    background-color: yellow;
+    align-self: start;
+    margin: 20px;
+    height: 100px;
+    width: 100px;
+}
+.content1 {
+     align-self: end;
+}
+.contentgrow {
+    flex: 1;
+    background-color: yellow;
+    vertical-align: middle;
+    margin: 20px;
+    height: 300px;
+    width: 100px;
+}
+.valign {
+    display: flex;
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+}
+.valigncontent {
+    background-color: yellow;
+    padding: 50px 50px
+}
